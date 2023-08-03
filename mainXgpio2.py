@@ -72,7 +72,7 @@ camRgb.setPreviewSize(416, 416)
 camRgb.setResolution(dai.ColorCameraProperties.SensorResolution.THE_1080_P)
 camRgb.setInterleaved(False)
 camRgb.setColorOrder(dai.ColorCameraProperties.ColorOrder.BGR)
-camRgb.setFps(22)
+camRgb.setFps(35)
 
 detectionNetwork.setConfidenceThreshold(0.5)
 detectionNetwork.setNumClasses(80)
